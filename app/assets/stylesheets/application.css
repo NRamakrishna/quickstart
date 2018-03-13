@@ -25,6 +25,7 @@ footer {
 	background-color: #ecf0f1;
 	padding-top: 15px; 
 	padding-bottom: 15px;
+	overflow: visible;
 } 
 
 .leasenow {
@@ -83,5 +84,10 @@ a:hover, a:focus {
     text-decoration: none !important;
 }
 .navbar {
-	top: -150px;
+  top: -150px;
+  font-size: 16px;
+}
+
+body, h1, h2, h3, h4, h5 {
+    font-family: "Poppins", sans-serif !important;
 }
